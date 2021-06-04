@@ -1659,6 +1659,33 @@ a.resume-btn:active {
 }
 */
 
+/* ======= VEILLE ======= */
+
+a.veille-btn {
+    background: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    border: 2px solid #000;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+a.veille-btn:hover,
+a.veille-btn:active {
+    /*background-position: -100% 100%;*/
+    color: #000;
+    /*font-weight: 400;*/
+    border: 2px solid #000;
+    background-color: rgba(254, 254, 254, 0.2);
+    padding: 10px 30px;
+}
 
 /* ======= CONTACT ======= */
 
