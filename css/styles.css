@@ -1661,6 +1661,10 @@ a.resume-btn:active {
 
 /* ======= VEILLE ======= */
 
+#veille {
+    background-color: #f0f0f0; 
+}
+
 a.veille-btn {
     background: none;
     display: inline-block;
@@ -1692,7 +1696,7 @@ a.veille-btn:active {
 #contact {
     padding-top: 50px;
     padding-bottom: 70px;
-    background-color: #F0F0F0;
+    background-color: #FFF;
 }
 
 .email-icon {
