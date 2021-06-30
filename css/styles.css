@@ -2117,6 +2117,28 @@ ul.social-buttons li a:active {
     background-color: #00009C;
 }
 
+.modal-body p.showcode {
+    margin-top: 50px;
+}
+
+.modal-body #showcode-btn {
+    padding: 10px;
+    color: #00009C;
+    border: 2px solid #00009C;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 40px 10px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.modal-body #showcode-btn:hover {
+    color: #fff;
+    background-color: #00009C;
+}
+
 .modal-description {
     font-size: 15px;
     margin: 0px 25px;
